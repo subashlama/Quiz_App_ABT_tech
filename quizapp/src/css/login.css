@@ -1,8 +1,35 @@
-.regSection{
-    margin-top: 2rem;
-    text-align: center;
-    
+.main-login-body {
+    color: #000;
+    background-color: rgb(212, 212, 212);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 120vh;
+  min-height: 100vh;
+}
+.formBody {
+    min-width: 100vh;
+    margin-left: 60vh;
+}
+
+.login-input {
+  color: rgb(24, 24, 24);
+  padding: 4px 6px !important;
+  margin-right: 2rem;
+  min-width: 40vh;
+}
+
+.regSection {
+  margin-top: 2rem;
+  text-align: center;
 }
 .registerBtn {
-    margin-left: 1rem;
+  margin-left: 1rem;
+}
+.login-button {
+    max-width: 5rem;
+    margin-left: 3rem;
 }

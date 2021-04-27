@@ -22,19 +22,34 @@ body {
   color: teal!important;
 }
 
-/* dashboard styles.... */
 .dashboard {
   margin: 2rem 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 .dashboard-description{
   color: teal;
   text-align: center;
 }
-.dashboard-start {
 
+.dashboard-start {
+  background-color:rgb(26, 98, 100);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  margin-top: 3rem;
+}
+.dashboard-start:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(13, 81, 83);
+  transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 800px) {
+  .dashboard {
+  margin: 2rem 10rem;
+  }  
 }

@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To run this project
+
+In the project directory i.e. quizapp folder, run:
+
+### yarn
+
+Install required dependencies 
+
+### yarn start
+
+Enjoy....
 ## Available Scripts
 
 In the project directory, you can run:
