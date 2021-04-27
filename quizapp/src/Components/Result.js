@@ -39,7 +39,7 @@ export default class Result extends Component {
             </div>
           </>
         </div>
-        <div className="submitAnswer">
+        <div className="restart-quiz">
           <Button
             color="primary"
             className="submitButton"

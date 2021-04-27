@@ -96,7 +96,7 @@ export default class Questions extends Component {
           ],
         },
         {
-          questionText: "How many teeth has a horse?",
+          questionText: "How many teeth does a horse have?",
           answerOptions: [
             { answerText: "32", isCorrect: false },
             { answerText: "40", isCorrect: true },

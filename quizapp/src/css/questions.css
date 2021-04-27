@@ -90,6 +90,11 @@ button svg {
   justify-content: space-between;
   margin: 1rem;
 }
+.restart-quiz {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
 .submitButton {
   width: 5rem;
 }
